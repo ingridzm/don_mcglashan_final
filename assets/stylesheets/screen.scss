@@ -1,0 +1,276 @@
+@import "normalize";
+@import "foundation";
+
+
+
+
+
+body {
+  margin:0;
+  padding:0;
+  font-family: 'Quicksand', sans-serif;
+  color:#333;
+  background-color: #2d3b47;
+  font-weight:400;
+
+
+ 
+
+} 
+ 
+#wrap{
+  width:100%;
+  text-align:left;
+  max-width:1200px;
+  min-width: 200px;
+  margin:0px auto;
+  background-color: #FFFFFF;
+
+
+}  
+
+/***typography**/
+
+h1 {
+        font-family: 'Coda Caption', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        font-size:3rem;
+        color:#fff;
+  
+        }
+
+h2{ 
+        font-family: 'Coda Caption', sans-serif;
+        text-transform: uppercase;
+        font-size: 40px;
+        margin-left:0px;
+        padding-left:0px;
+
+        }
+
+h3{font-size: 30px;
+        
+    }
+
+
+h4{font-family: 'Coda Caption', sans-serif;
+        font-size: 1.5rem;
+        padding-top:1em;
+       }
+
+
+h5{ font-size: 1.3rem;
+  margin-top:0;
+
+
+
+       }
+
+.banner-blue{
+          background-color:#80A8cc;
+          padding:0.5rem 1.5rem;
+          margin:3rem 1rem 0 1rem;
+          color:#fff;
+          font-family: 'Coda Caption', sans-serif;
+          text-transform: uppercase;
+}
+
+
+
+
+.banner-line{border-bottom:3px solid #80A8cc;
+              background-color:#2d3b47;
+              padding:0.5rem 1.5rem;
+               margin:3rem 1rem 0 1rem;
+              
+              color:#80A8cc;
+              font-family: 'Coda Caption', sans-serif;
+              text-transform: uppercase;
+}
+
+.banner-clear {background-color: rgba(45, 59, 71, 0.25);
+               
+                color:#80A8cc;
+                padding:1rem;
+                margin:3rem 1rem 0 1rem;
+
+              font-family: 'Coda Caption', sans-serif;}
+.banner-clear p{text-align: right;}
+
+.no-banner{margin-top:1rem;}
+
+
+.white{color:#fff;
+        font-weight:100;
+       font-family: 'Quicksand', sans-serif;}
+
+
+header{
+  
+   background:url(../images/background.jpg)no-repeat top center;
+     
+}
+
+nav{
+    font-family: 'Coda Caption', sans-serif;
+   
+   padding-top:25px;
+    text-transform:uppercase; 
+
+}
+
+nav ul{
+  list-style:none; 
+}
+
+
+nav ul li {
+  text-align:center;
+  float:left;
+  padding:1.5rem 0;
+  font-size:1.2rem;
+  background-color:rgba(245, 245, 245, 0.5);
+
+}
+
+nav ul li a {display:block;
+          width:10rem;
+          color:#fff;
+          }
+          
+
+nav ul li a:hover, li.active a
+{
+color:#80A8cc;
+background-color:#fff;
+}
+
+
+
+
+#clear{height:200px;}
+
+
+
+
+.slideshow-wrapper {
+  width:800px;
+margin:100px auto 30px auto;}
+
+#button{padding:1em;
+  
+}
+
+
+#bio{
+  
+  padding:0rem 2rem;
+
+
+
+p{font-size:20px;}       
+
+ul li {
+  color:#444; 
+  list-style:none; 
+}
+
+ul li:before {
+  color:#80a0cc; 
+  content:"\2022"; 
+  font-size:2em;  
+  padding-right:.25em; 
+  position:relative;
+  top:.1em; 
+  line-height:0.5em;
+}
+
+
+}                   /**end bio**/
+
+
+
+
+
+
+
+.black{background-color:#2d3b47;
+        margin: 0 1.0rem 1.0rem 1.0rem;
+        padding:1rem 1rem 0.1rem 1rem ;
+        p{color:#fff;
+          line-height:1.0em;}
+
+      }
+
+
+
+.black-contact{background-color:#2d3b47;
+        margin-top: 2rem;
+        padding:3rem;
+      }
+
+      .margin{margin-top: 3.3rem;}
+
+    
+
+
+      aside{margin-top:7.5rem;}
+
+
+
+
+     
+
+footer{
+    background-color: #80A8CC;
+
+  
+      
+
+      
+
+       p{font-size:16px;
+          line-height:1.5rem;
+       }
+}
+
+
+/**news section**/
+
+
+.news {
+  padding: 1rem 2rem 1rem 1rem;}
+
+  .news_img{padding-bottom: 1rem;}
+
+
+
+
+
+   
+
+
+
+div.row{
+   max-width:1200px;
+}
+
+
+/**discography**/
+
+ol{padding-top:2rem;}
+
+.album{
+padding-bottom:1rem;
+display:block;
+margin:0 auto;}
+
+
+
+/***contact form**/
+
+
+
+
+
